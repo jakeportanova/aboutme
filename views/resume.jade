@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  - var selected = 'Resume';
+  include navbar
+
+  iframe#resume(src='https://docs.google.com/document/d/1nfjLb79PXRv94riLBvUxtZekU1q1qvHa-fipD0EY_D0/pub?embedded=true')

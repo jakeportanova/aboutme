@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  - var selected = 'Home';
+  include navbar
+
+  div#about-img
+    img(src='/images/headshot.png')
+  div#about-info
+    h1= title
+    br
+    p
+      | aa at&nbsp;
+      a(href='http://fastspring.com/') FastSpring
+      | , aa
+    br
+    br
+    p
+      | If you have any questions for me then please&nbsp;
+      a(href='mailto:jakeportanova@gmail.com') get in touch!
